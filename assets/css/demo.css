@@ -1,0 +1,207 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Ayush Jangra
+Updated: July 2016
+Notes:	 Hand coded for Instabike
+
+*/
+
+
+/*----------  Login  ------------ */
+#background-image{
+    background-image: url("../img/bg3.jpeg");
+    width: 100%;
+    height: 100%;
+}
+
+.form-login{
+  max-width: 500px;
+  margin: 20px auto 0;
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.form-login h2{
+  padding: 25px 20px;
+  text-align: center;
+  background-color: #632863;
+  border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 20px;
+}
+.login-wrap{
+  padding: 20px;
+}
+.nav-tabs> li> a{
+  padding: 10px;
+  font-size: 12px;
+  color: #68dff0;
+  width: 143px;
+}
+
+.login-social{
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.btn-facebook{
+  color: #fff;
+  background-color: #5193ea;
+  border-color: #2775e2;
+}
+.btn-facebook:hover,
+.btn-facebook:focus,
+.btn-facebook:active{
+  color: #fff;
+  background-color: #2775e2;
+  border-color: #2775e2;
+}
+.btn-twitter{
+  color: #fff;
+  background-color: #44ccfe;
+  border-color: #2bb4e8;
+}
+.btn-twitter:hover,
+.btn-twitter:focus,
+.btn-twitter:active{
+  color: #fff;
+  background-color: #2bb4e8;
+  border-color: #2bb4e8;
+}
+
+
+/*Green Panel*/
+.green-panel {
+	text-align: center;
+	background: #68dff0;
+}
+.green-panel .green-header {
+	background: #43b1a9;
+	padding: 3px;
+	margin-bottom: 15px;
+}
+.green-panel h5 {
+	color: white;
+	font-weight: 200;
+	margin-top: 10px;
+}
+.green-panel h3 {
+	color: white;
+	font-weight: 100;
+}
+.green-panel p {
+	color: white;
+}
+.mt {
+	margin-top: 25px;
+}
+
+.mb {
+	margin-bottom: 25px;
+}
+
+/*spark line*/
+.chart {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.chart .heading {
+    text-align: left;
+}
+.chart .heading span {
+    display: block;
+}
+
+
+/* Card color */
+#text-white{
+    color: white;
+}
+.colour1{
+    background-color: #4fc1e9;
+}
+.colour2{
+    background-color: #68DFF0;
+}
+.colour3{
+    background-color: #5bc0de;
+}
+
+/*modal of == forgot password*/
+.modal-header{
+  background-color: #68dff0;
+}
+.modal-title{
+  color: #fff;
+}
+#background-white{
+    background-color: white;
+}
+
+
+@media (min-width: 992px){
+    .typo-line{
+        padding-left: 140px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .typo-line .category{
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0px;
+        position: absolute;
+    }
+}
+
+.all-icons [class*="pe-"]{
+    font-size: 40px;
+}
+.all-icons input{
+    border: 0;
+}
+.all-icons .font-icon-detail{
+    text-align: center;
+    padding: 45px 0px 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+.all-icons .font-icon-detail input{
+    margin: 25px auto 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: #aaa;
+    font-size: 13px;
+}
+
+#map{
+    position:relative;
+    width:100%;
+    height: calc(100% - 60px);
+}
+
+.places-buttons .btn{
+    margin-bottom: 30px
+}
+.sidebar .nav > li.active-pro{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+.sidebar .nav > li.active-pro a{
+    background: rgba(255, 255, 255, 0.14);
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.table-upgrade td:nth-child(2),
+.table-upgrade td:nth-child(3){
+    text-align: center;
+}
